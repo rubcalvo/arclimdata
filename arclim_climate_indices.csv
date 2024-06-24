@@ -1,0 +1,66 @@
+Categoría,Código,Nombre,Descripción,Unidades,∆
+Calor,consecutive_days_over_25C,Olas de calor > 25ºC,Número de días que la temperatura máxima diaria supera 25 ºC durante 3 o más días seguidos,dias,abs
+Calor,consecutive_days_over_28C,Olas de calor > 28ºC,Número de días que la temperatura máxima diaria supera 28 ºC durante 3 o más días seguidos,dias,abs
+Calor,consecutive_days_over_30C,Olas de calor > 30ºC,Número de días que la temperatura máxima diaria supera 30 ºC durante 3 o más días seguidos,dias,abs
+Calor,daily_temperature_range,Amplitud térmica,Valor medio de la amplitud térmica diaria (Tmax - Tmin).,grados,abs
+Calor,degdays_above_15C,Grados-dia sobre 15ºC,Grados-dia sobre 15ºC,grados-dias,abs
+Calor,degdays_above_20C,Grados-dia sobre 20ºC,Grados-dia sobre 20ºC,grados-dias,abs
+Calor,degdays_above_25,Grados-dia sobre 25ºC,Grados-dia sobre 25ºC,grados-dias,abs
+Calor,degdays_above_30,Grados-dia sobre 30ºC,Grados-dia sobre 30ºC,grados-dias,abs
+Calor,hot_days,Dias calurosos (>30ºC),Número de días en que la temperatura máxima supera 30ºC.,dias,abs
+Calor,hottest_day,Día más cálido,"Temperatura (en ºC) del día más cálido del periodo considerado (año, estación, mes)",ºC,abs
+Calor,mean_temperature,Temperatura media,"Valor medio de la temperatura media diaria, calculado como 0.5*(Tmax + Tmin)",grados,abs
+Calor,quite_hot_days,Dias relativamente cálidos (> 28ºC),Número de días en que la temperatura máxima supera 28ºC.,dias,abs
+Calor,summer_days,Días de verano (> 25ºC),Número de días en que la temperatura supera 25ºC,dias,abs
+Calor,tasmax_mean,Promedio de la temperatura máxima diaria,Promedio de la temperatura máxima diaria,ºC,abs
+Calor,tropical_nights,Noches tropicales,Número de días en que la temperatura mínima supera 20ºC,dias,abs
+Calor,very_hot_days,Dias muy cálidos,Número de días en que la temperatura supera 34ºC,dias,abs
+Calor,warm_days,Días cálidos,Número de días en que la temperatura supera el umbral definido como el percentil 90 de la temperatura diaria en el periodo de referencia (1980 a 2010).,dias,abs
+Calor,warmest_night,Noche más cálida,"Temperatura mínima en el día de mayor temperatura mínima durante el periodo considerado (año, estación, mes)",ºC,abs
+Calor,warm_nights,Noches cálidas,Número de días en que la temperatura mínima supera el umbral definido como el percentil 90 de la temperatura mínima diaria en el periodo de referencia (1980 a 2010).,dias,abs
+Calor,warm_nights_duration_index_long,Duración de periodos de noches cálidas (> 6 dias),Numero de días consecutivos (en cadenas de al menos 6) que la temperatura mínima supera el percentil 90.,dias,abs
+Calor,warm_nights_duration_index_short,Duración de periodos de noches cálidas (> 3 dias),Numero de días consecutivos (en cadenas de al menos 3) en que la temperatura mínima supera el percentil 90.,dias,abs
+Calor,warm_spell_duration_index_long,Duración de episodios cálidos (> 6 dias),Numero de dias con al menos 6 dias consecutivos en que la temperatura máxima supera el percentil 90.,dias,abs
+Calor,warm_spell_duration_index_short,Duración de episodios cálidos (> 3 dias),Numero de dias con al menos 3 dias consecutivos en que la temperatura máxima supera el percentil 90.,dias,abs
+Frío,coldest_day,Día más frío,"Temperatura máxima del día más frió del periodo considerado (año, estación, mes)",ºC,abs
+Frío,coldest_night,Noche más fría,"Temperatura de la noche más fría (temperatura mínima) del periodo considerado (año, estación, mes)",ºC,abs
+Frío,cold_spell_duration_index_long,Duración de episodios fríos (> 6 días),Numero de días con al menos 6 días consecutivos en que la temperatura mínima no supera el percentíl 10 de la temperatura mínima diaria en el periodo de referencia (1980 a 2010).,dias,abs
+Frío,cold_spell_duration_index_short,Duración de episodios fríos (> 3 días),Numero de días con al menos 6 días consecutivos en que la temperatura mínima no supera el percentíl 10 de la temperatura mínima diaria en el periodo de referencia (1980 a 2010).,dias,abs
+Frío,cool_days,Días fríos,Numero de días en que la temperatura máxima en menor que el percentíl 10.,dias,abs
+Frío,cool_nights,Noches frías,Numero de días en que la temperatura mínima en menor que el percentíl 10.,dias,abs
+Frío,degdays_below_0c,Grados-dia bajo 0ºC,Grados-dia bajo 0ºC,grados-dias,abs
+Frío,degdays_below_10C,Grados-dia bajo 10ºC,Grados-dia bajo 10ºC,grados-dias,abs
+Frío,degdays_below_15C,Grados-dia bajo 15ºC,Grados-dia bajo 15ºC,grados-dias,abs
+Frío,degdays_below_5C,Grados-dia bajo 5ºC,Grados-dia bajo 5ºC,grados-dias,abs
+Frío,frost_days,Días de  escarcha,Número de días en que la temperatura mínima es menor que 0ºC,dias,abs
+Frío,ice_days,Días de hielo,Número de días en que la temperatura máxima es menor que 0ºC,dias,abs
+Frío,tasmin_mean,Promedio de la temperatura mínima diaria,Promedio de la temperatura mínima diaria,ºC,abs
+Precipitación,consecutive_dry_days,Días secos consecutivos,Número máximo de días consecutivos en que la precipitación diaria no supera 1 mm,dias,rel
+Precipitación,consecutive_wet_days,Días húmedos consecutivos,Número máximo de días consecutivos en que la precipitación diaria supera 1 mm,dias,rel
+Precipitación,drought_periods,Frecuencia de sequía,Frecuencia de periodos en que la precipitación acumulada es menor al 75% del promedio la precipitación acumulada en el periodo de referencia (1980 a 2010),%,abs
+Precipitación,eto_mean,Evaportraspiración Potencial,"Evaportraspiración Potencial medio, calculado usado el metodo de Penman-Montieth (FAO56)",mm,abs
+Precipitación,maximum_daily_precipitation,Precipitación máxima diaria,Precipitación máxima diaria,dias,rel
+Precipitación,number_of_heavy_precipitation_days,Días de precipitación intensa,Número de días en que la precipitación diaria supera 10 mm,dias,abs
+Precipitación,number_of_very_heavy_precipitation_days,Días de precipitación muy intensa,Número de días en que la precipitación diaria supera 20 mm,dias,abs
+Precipitación,pr_max,Precipitación máxima diaria,Valor máximo de la precipitación (lluvia y nieve) diaria,mm,rel
+Precipitación,pr_sum,Precipitación acumulada,Cantidad de precipitación (lluvia y nieve) acumulada,mm,rel
+Precipitación,simple_precip_intensity_index,Indice simple de intensidad de precipitación,Promedio de la precipitación diaria considerando sólo los días en que la precipitación supera 1mm/día,mm/día,abs
+Precipitación,spi,Standadized Precipitation Index,Standadized Precipitation Index,Z,abs
+Precipitación,total_from_extremely_wet_days,Acumulación en días muy húmedos,Precipitación acumulada en los días en que la precipitación diaria supera el percentil 95  del periodo de referencia (1980 a 2010),mm,rel
+Precipitación,total_from_very_wet_days,Acumulación en días húmedos,Precipitación acumulada en los días en que la precipitación diaria supera el percentil 99  del periodo de referencia (1980 a 2010),mm,rel
+Lluvia,rain_max,Lluvia máxima diaria,Valor máximo de la lluvia (agua liquida) acumulada en un día,mm,rel
+Lluvia,rain_sum,Lluvia acumulada,"Cantidad de lluvia (agua líquida) acumulada en milímetros durante el período (año, estación, o mes)",mm,rel
+Nieve,snow_max,Nieve máxima diaria,"Valor máximo de la nieve acumulada en un día,  expresada en mm de agua equivalente",mm,rel
+Nieve,snow_sum,Nieve acumulada,"Cantidad de nieve acumulada, expresada en mm de agua equivalente",mm,rel
+Viento,uas_mean,Viento zonal medio,Valor medio del componente zonal (este-oeste) del viento,m/s,abs
+Viento,vas_mean,Viento meridional medio,Valor medio del componente meridional (norte-sur) del viento,m/s,abs
+Viento,vel_max,Viento máximo diario,Valor medio del máximo diario de la magnitud del viento,m/s,rel
+Viento,vel_mean,Viento medio,Valor medio de la magnitud del viento,m/s,rel
+Humedad,hursmax_mean,Humedad relativa máxima diaria,Valor medio de la humedad relativa (%),%,rel
+Humedad,hurs_mean,Humedad relativa media diaria,Valor medio del máximo diario de la humedad relativa (%),%,rel
+Humedad,hursmin_mean,Humedad relativa mínima diaria,Valor medio del mínimo diario de la humedad relativa (%),%,rel
+Humedad,huss_mean,Humedad específica,Valor medio de la humedad específica (g/Kg),g/kg,rel
+Insolación,rsds_max,Insolación solar máxima diaria,Valor máximo de la irradiación global horizontal diaria (W/m2),W/m2,abs
+Insolación,rsds_mean,Insolación solar diaria,Valor medio de la irradiación global horizontal,W/m2,abs
+Insolación,rsds_min,Insolación solar mínima diaria,Valor mínimo de la irradiación global horizontal diaria,W/m2,abs
+Presión,ps_mean,Presión atmosférica media,Valor medio de la presión atmosférica en superficie,hPa,abs
